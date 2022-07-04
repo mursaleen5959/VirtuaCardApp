@@ -1,0 +1,34 @@
+@font-face {
+    font-family: NunitoSansRegular;
+    src: url(../Nunito_Sans/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoSansBold;
+    src: url(../Nunito_Sans/NunitoSans-Bold.ttf);
+}
+  
+body{
+    font-family: NunitoSansRegular;
+}
+#ind-body-back{
+    background-image: url('../images/WavesBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ind-card{
+    background-color: white;
+    border: 2px solid #404a95;
+    border-radius: 20px;
+}
+.ind-card-head{
+    font-family: NunitoSansBold;
+    color: #404a95;
+    /* font-weight: bold; */
+}
+.ind-card-a{
+    text-decoration: none;
+}
+.ind-card-a h5{
+    font-family: NunitoSansRegular;
+    color: black;
+}
