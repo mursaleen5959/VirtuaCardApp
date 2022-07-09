@@ -78,3 +78,16 @@ body{
     background-color: rgb(58 59 64 / 82%);
     border-radius: 15px;
 }
+.d-card-a{
+    text-decoration: none;
+}
+.d-card{
+    background-color: white;
+    border: 2px solid #404a95;
+    border-radius: 20px;
+}
+.d-card-head{
+    font-family: NunitoSansBold;
+    color: #404a95;
+    /* font-weight: bold; */
+}

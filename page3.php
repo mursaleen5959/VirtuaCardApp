@@ -2,7 +2,12 @@
 session_start();
 if(isset($_SESSION['user_login']))
 {
+  if(!isset($_SESSION['license_type']) || $_SESSION['license_type'] == 'VC')
+  {
     //echo"<h1>Welcome to profile</h1>";
+    echo"<script>window.location.href='offer.php';</script>";
+
+  }
 }
 else{
     echo"<script>window.location.href='login.php';</script>";

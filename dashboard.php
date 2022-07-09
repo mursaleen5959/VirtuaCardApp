@@ -31,16 +31,45 @@ else{
   <div class="row">
     <?php include_once("includes/sidebar.php");?>
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <div class="pt-3 pb-2 mb-3">
       <img src="sources/images/Logo_Long.webp" alt="" width="200px">
-        <!-- <h1 class="h2 text-end">Dashboard</h1> -->
-        <div class="btn-toolbar mb-2 mb-md-0">
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="walletbuilder.php" class="d-card-a">
+              <div class="d-card pt-5">
+                <h4 class="d-card-head  ps-3 pe-3 pb-1 text-center">Créer ou Modifier votre VirtuaCard Digitale </h4>
+                <div class="text-center">
+                  <img src="sources/images/VirtuaCard Digitale.png" class="img-fluid pb-2" alt="" width="150px">
+                </div>
+            </div>
+          </a>
         </div>
+        <div class="col-sm-4">
+          <a href="vcfbuilder.php" class="d-card-a">
+              <div class="d-card pt-5">
+                <div class="text-center">
+                  <h4 class="d-card-head ps-3 pe-3 pb-1">Créer ou Modifier votre Fiche Contact </h4>
+                  <img src="sources/images/Fiche Contact.png" class="img-fluid pb-2" alt="" width="150px">
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="page3.php" class="d-card-a">
+              <div class="d-card pt-5">
+                <div class="text-center">
+                  <h4 class="d-card-head ps-3 pe-3 pb-4">Imprimer ou Réimprimer Votre VirtuaCard </h4>
+                  <img src="sources/images/NFC Card.png" class="img-fluid pb-4" alt="" width="250px">
+                </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
       </div>
     </main>
   </div>
 </div>
-
-
 </body>
 </html>
